@@ -6,8 +6,8 @@ export default defineConfig({
   server: {
     port: 8080,
     proxy: {
-      "/analyze-resume": "https://resume-analyzer-xrb4.onrender.com/analyze-resume",
-      "/health": "https://resume-analyzer-xrb4.onrender.com/analyze-resume",
+      "/analyze-resume": "http://localhost:5000/analyze-resume",
+      "/health": "http://localhost:5000/analyze-resume",
     },
   },
 });
